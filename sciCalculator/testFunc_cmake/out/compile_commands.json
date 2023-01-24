@@ -1,0 +1,22 @@
+[
+{
+  "directory": "D:/Users/Radioactive/Desktop/CppTemplate/build/bin",
+  "command": "D:/GCC/bin/g++.exe   -g -o CMakeFiles/cppexe.dir/driver.cpp.obj -c D:/Users/Radioactive/Desktop/CppTemplate/src/driver.cpp",
+  "file": "D:/Users/Radioactive/Desktop/CppTemplate/src/driver.cpp"
+},
+{
+  "directory": "D:/Users/Radioactive/Desktop/CppTemplate/build/bin",
+  "command": "D:/GCC/bin/g++.exe   -g -o CMakeFiles/cppexe.dir/list.cpp.obj -c D:/Users/Radioactive/Desktop/CppTemplate/src/list.cpp",
+  "file": "D:/Users/Radioactive/Desktop/CppTemplate/src/list.cpp"
+},
+{
+  "directory": "D:/Users/Radioactive/Desktop/CppTemplate/build/bin",
+  "command": "D:/GCC/bin/g++.exe   -g -o CMakeFiles/cppexe.dir/queue.cpp.obj -c D:/Users/Radioactive/Desktop/CppTemplate/src/queue.cpp",
+  "file": "D:/Users/Radioactive/Desktop/CppTemplate/src/queue.cpp"
+},
+{
+  "directory": "D:/Users/Radioactive/Desktop/CppTemplate/build/bin",
+  "command": "D:/GCC/bin/g++.exe   -g -o CMakeFiles/cppexe.dir/stack.cpp.obj -c D:/Users/Radioactive/Desktop/CppTemplate/src/stack.cpp",
+  "file": "D:/Users/Radioactive/Desktop/CppTemplate/src/stack.cpp"
+}
+]
