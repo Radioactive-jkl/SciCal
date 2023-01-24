@@ -11,8 +11,8 @@ Radioactive *`V1.0`*
 * [Development](#development)
 
 
-##### `High Accuraccy Algorithm` is going to be added in the next release,
-      ~~if I have free time~~.
+##### `High Accuraccy Algorithm` is going to be added in the next release, ~~if I have free time~~.
+
 
 ## Highlights
 
