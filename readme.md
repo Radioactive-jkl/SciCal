@@ -1,5 +1,5 @@
 # Practical Scientific Calculator
-Radioactive
+Radioactive *`V1.0`*
 <h3 align="center">Curriculum Design for OPP C++</h3>
 
 ---
@@ -10,6 +10,9 @@ Radioactive
 * [Usage](#usage)
 * [Development](#development)
 
+
+##### `High Accuraccy Algorithm` is going to be added in the next release,
+      ~~if I have free time~~.
 
 ## Highlights
 
