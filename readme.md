@@ -59,7 +59,6 @@ On Linux and macOS, you can compile and run the tests using the command line fro
 
 * To compile the tests, run **`cmake`**.
 * To build and run the tests, run **`make`**.
-* To generate the single-include header file, run **`make install`**.
 
 ### Using an IDE that supports CMake
 
