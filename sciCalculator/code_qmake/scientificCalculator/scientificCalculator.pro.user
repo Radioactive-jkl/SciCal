@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.11.1, 2023-01-24T08:46:20. -->
+<!-- Written by QtCreator 4.11.1, 2023-02-02T19:34:53. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -129,7 +129,7 @@
     <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">2</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:/Users/Radioactive/Documents/Programming Language/C++/QtTemplate/build-scientificCalculator-Desktop_Qt_5_14_2_MinGW_64_bit-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:/Users/Radioactive/Documents/Programming Language/C++/QtTemplate/scical/build-scientificCalculator-Desktop_Qt_5_14_2_MinGW_64_bit-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -310,7 +310,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">D:/Users/Radioactive/Documents/Programming Language/C++/QtTemplate/build-scientificCalculator-Desktop_Qt_5_14_2_MinGW_64_bit-Release</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">D:/Users/Radioactive/Documents/Programming Language/C++/QtTemplate/scical/build-scientificCalculator-Desktop_Qt_5_14_2_MinGW_64_bit-Release</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

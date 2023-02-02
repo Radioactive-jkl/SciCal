@@ -10,8 +10,6 @@ Widget::Widget(QWidget *parent)
 
     this->setWindowTitle("scientificCalculator");
 
-    this->setWindowFlags(Qt::WindowStaysOnTopHint);
-
     QFont textFont("Consolas",14);
     ui->lineEdit_text->setFont(textFont);
     ui->lineEdit_answer->setFont(textFont);
@@ -287,6 +285,8 @@ void Widget::on_Button_enter_clicked()
         setwidget *configwidget = new setwidget;
         configwidget->show();
         Widget::connect(configwidget, &setwidget::sendToWidget, this, &Widget::confSlot);
+
+        configwidget->set_text(history);
     }
     else
     {
@@ -295,11 +295,23 @@ void Widget::on_Button_enter_clicked()
         ans_global = calculate(temp, ans_global, config);
         answer = QString(QString::fromLocal8Bit(ans_global.c_str()));
         ui->lineEdit_answer->setText(answer);
+
+        history = history + text + "\n" + answer + "\n\n";
     }
 }
 
 void Widget::confSlot(int co)
 {
-    config = co;
-    //qDebug("%d", config);
+    config = co%1000;
+    //qDebug("%d", co);
+    if(co>=1000)
+    {
+        setWindowFlags(Qt::WindowStaysOnTopHint);
+        show();
+    }
+    else
+    {
+        setWindowFlags(Qt::Widget);
+        show();
+    }
 }

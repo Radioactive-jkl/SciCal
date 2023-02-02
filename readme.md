@@ -1,5 +1,5 @@
 # Practical Scientific Calculator
-Radioactive *`V1.0`*
+Radioactive *`V1.1`*
 <h3 align="center">Curriculum Design for OPP C++</h3>
 
 ---
@@ -11,7 +11,9 @@ Radioactive *`V1.0`*
 * [Development](#development)
 
 
+
 ##### `High Accuraccy Algorithm` is going to be added in the next release, ~~if I have free time~~.
+
 
 
 ## Highlights
@@ -23,14 +25,16 @@ Radioactive *`V1.0`*
   [boxed_exe](https://github.com/Radioactive-jkl/cppSciCal/blob/master/sciCalculator/scientificCalculator_boxed.exe)
   and start using.
 
+
+
 ## Usage
 
 1. Download the 
    [boxed_exe](https://github.com/Radioactive-jkl/cppSciCal/blob/master/sciCalculator/scientificCalculator_boxed.exe)
    then use.
     
-2. use **`calculate.h`** and **`calculate.cpp`** as [*toolFunction*](https://github.com/Radioactive-jkl/cppSciCal/blob/master/sciCalculator/testFunc_cmake).
-
+2. Use **`calculate.h`** and **`calculate.cpp`** as *toolFunction*.
+   [*`testFunc_cmake`*](https://github.com/Radioactive-jkl/cppSciCal/blob/master/sciCalculator/testFunc_cmake) is a demo.
     ```c++
     /*
      * testFunc_cmake
@@ -43,6 +47,9 @@ Radioactive *`V1.0`*
      *       └── main.cpp
      */
     ```
+3. Use an IDE like **Qt Creator** to develop [*`code_qmake`*](https://github.com/Radioactive-jkl/cppSciCal/tree/master/sciCalculator/code_qmake).
+
+
 
 ## Development
 
@@ -53,12 +60,11 @@ and more).
 
 **`code_qmake`** is recommended to use Qt Creator.
 
+
 ### Using the command line
 
 On Linux and macOS, you can compile and run the tests using the command line from the project's root directory.
 
-* To compile the tests, run **`cmake`**.
-* To build and run the tests, run **`make`**.
 
 ### Using an IDE that supports CMake
 
@@ -73,8 +79,6 @@ In case your IDE does not support CMake directly, you will need to run `cmake`
 via the command line with the appropriate flags to generate the project files
 for your IDE. Give it a try, it's not supposed to be hard!
 
-### Using Qt Creator
-
-Just open
-[**`scientificCalculator.pro`**](https://github.com/Radioactive-jkl/cppSciCal/blob/master/sciCalculator/code_qmake/scientificCalculator/scientificCalculator.pro)
-to use.
+If using Qt Creator
+Just download[*`code_qmake`*](https://github.com/Radioactive-jkl/cppSciCal/blob/master/sciCalculator/code_qmake/scientificCalculator/code_qmake)
+and open **`scientificCalculator.pro`** to use.

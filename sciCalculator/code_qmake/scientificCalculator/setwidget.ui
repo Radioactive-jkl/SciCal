@@ -6,53 +6,160 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>240</width>
-    <height>121</height>
+    <width>413</width>
+    <height>247</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QWidget" name="layoutWidget">
+  <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>221</width>
-     <height>101</height>
+     <width>394</width>
+     <height>229</height>
     </rect>
    </property>
-   <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
-     <widget class="QRadioButton" name="roundButon">
-      <property name="text">
-       <string>rounding-off</string>
-      </property>
-     </widget>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="roundButon">
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+        <property name="text">
+         <string> rounding-off</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>OutputSettings</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QCheckBox" name="checkBox_top">
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+        <property name="text">
+         <string> TopHint</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QSpinBox" name="spinBox">
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QCheckBox" name="checkBox_per">
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+        <property name="text">
+         <string> Use %</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QRadioButton" name="cutButton">
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+        <property name="text">
+         <string> cutting-off</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QPushButton" name="commitButton">
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>commit</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>Other Settings</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
-    <item row="0" column="1">
-     <widget class="QRadioButton" name="cutButton">
-      <property name="text">
-       <string>cutting-off</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="0">
-     <widget class="QSpinBox" name="spinBox"/>
-    </item>
-    <item row="1" column="1">
-     <widget class="QCheckBox" name="checkBox">
-      <property name="text">
-       <string>  Use %</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="1">
-     <widget class="QPushButton" name="commitButton">
-      <property name="text">
-       <string>commit</string>
-      </property>
-     </widget>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <family>Consolas</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>History</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="exportButton">
+          <property name="font">
+           <font>
+            <family>Consolas</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Save as ...</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="font">
+         <font>
+          <family>Consolas</family>
+         </font>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>

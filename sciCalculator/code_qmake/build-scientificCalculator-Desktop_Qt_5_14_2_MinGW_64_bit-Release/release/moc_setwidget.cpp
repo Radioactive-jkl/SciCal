@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_setwidget_t {
-    QByteArrayData data[10];
-    char stringdata0[148];
+    QByteArrayData data[12];
+    char stringdata0[204];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -39,16 +39,20 @@ QT_MOC_LITERAL(3, 24, 2), // "co"
 QT_MOC_LITERAL(4, 27, 21), // "on_roundButon_clicked"
 QT_MOC_LITERAL(5, 49, 20), // "on_cutButton_clicked"
 QT_MOC_LITERAL(6, 70, 23), // "on_spinBox_valueChanged"
-QT_MOC_LITERAL(7, 94, 4), // "arg1"
-QT_MOC_LITERAL(8, 99, 23), // "on_commitButton_clicked"
-QT_MOC_LITERAL(9, 123, 24) // "on_checkBox_stateChanged"
+QT_MOC_LITERAL(7, 94, 3), // "arg"
+QT_MOC_LITERAL(8, 98, 23), // "on_commitButton_clicked"
+QT_MOC_LITERAL(9, 122, 28), // "on_checkBox_per_stateChanged"
+QT_MOC_LITERAL(10, 151, 28), // "on_checkBox_top_stateChanged"
+QT_MOC_LITERAL(11, 180, 23) // "on_exportButton_clicked"
 
     },
     "setwidget\0sendToWidget\0\0co\0"
     "on_roundButon_clicked\0on_cutButton_clicked\0"
-    "on_spinBox_valueChanged\0arg1\0"
+    "on_spinBox_valueChanged\0arg\0"
     "on_commitButton_clicked\0"
-    "on_checkBox_stateChanged"
+    "on_checkBox_per_stateChanged\0"
+    "on_checkBox_top_stateChanged\0"
+    "on_exportButton_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -58,7 +62,7 @@ static const uint qt_meta_data_setwidget[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       6,   14, // methods
+       8,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -66,14 +70,16 @@ static const uint qt_meta_data_setwidget[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   44,    2, 0x06 /* Public */,
+       1,    1,   54,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       4,    0,   47,    2, 0x08 /* Private */,
-       5,    0,   48,    2, 0x08 /* Private */,
-       6,    1,   49,    2, 0x08 /* Private */,
-       8,    0,   52,    2, 0x08 /* Private */,
-       9,    1,   53,    2, 0x08 /* Private */,
+       4,    0,   57,    2, 0x08 /* Private */,
+       5,    0,   58,    2, 0x08 /* Private */,
+       6,    1,   59,    2, 0x08 /* Private */,
+       8,    0,   62,    2, 0x08 /* Private */,
+       9,    1,   63,    2, 0x08 /* Private */,
+      10,    1,   66,    2, 0x08 /* Private */,
+      11,    0,   69,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Int,    3,
@@ -84,6 +90,8 @@ static const uint qt_meta_data_setwidget[] = {
     QMetaType::Void, QMetaType::Int,    7,
     QMetaType::Void,
     QMetaType::Void, QMetaType::Int,    7,
+    QMetaType::Void, QMetaType::Int,    7,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -99,7 +107,9 @@ void setwidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 2: _t->on_cutButton_clicked(); break;
         case 3: _t->on_spinBox_valueChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 4: _t->on_commitButton_clicked(); break;
-        case 5: _t->on_checkBox_stateChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 5: _t->on_checkBox_per_stateChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 6: _t->on_checkBox_top_stateChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 7: _t->on_exportButton_clicked(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -143,13 +153,13 @@ int setwidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 8;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 8)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 6;
+        _id -= 8;
     }
     return _id;
 }

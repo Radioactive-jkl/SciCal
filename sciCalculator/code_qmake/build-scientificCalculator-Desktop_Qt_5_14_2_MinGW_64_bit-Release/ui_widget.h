@@ -71,6 +71,7 @@ public:
         Button_ans_pai->setMinimumSize(QSize(50, 50));
         Button_ans_pai->setMaximumSize(QSize(200, 200));
         QFont font;
+        font.setFamily(QString::fromUtf8("Consolas"));
         font.setPointSize(15);
         Button_ans_pai->setFont(font);
 
@@ -128,7 +129,10 @@ public:
         Button_shift->setMinimumSize(QSize(50, 50));
         Button_shift->setMaximumSize(QSize(200, 200));
         QFont font1;
+        font1.setFamily(QString::fromUtf8("Consolas"));
         font1.setPointSize(11);
+        font1.setBold(true);
+        font1.setWeight(75);
         Button_shift->setFont(font1);
 
         gridLayout->addWidget(Button_shift, 5, 0, 1, 1);
@@ -274,6 +278,7 @@ public:
         Button_sqrt_e->setMinimumSize(QSize(50, 50));
         Button_sqrt_e->setMaximumSize(QSize(200, 200));
         QFont font2;
+        font2.setFamily(QString::fromUtf8("Consolas"));
         font2.setPointSize(13);
         Button_sqrt_e->setFont(font2);
 
@@ -284,6 +289,7 @@ public:
         Button_ac->setMinimumSize(QSize(50, 50));
         Button_ac->setMaximumSize(QSize(200, 200));
         QFont font3;
+        font3.setFamily(QString::fromUtf8("Consolas"));
         font3.setPointSize(16);
         Button_ac->setFont(font3);
 

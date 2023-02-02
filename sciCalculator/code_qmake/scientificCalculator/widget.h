@@ -81,6 +81,7 @@ private:
     Ui::Widget *ui;
     QString text = "";
     QString answer = "";
+    QString history = "";
 
 public slots:
     void confSlot(int co);
